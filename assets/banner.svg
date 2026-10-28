@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="MovieLens Recommender — project 4 of 6">
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#243247" stroke-width=".5"/></pattern></defs>
+<rect width="1200" height="320" rx="20" fill="#0b1220"/><rect width="1200" height="320" rx="20" fill="url(#grid)"/>
+<rect x="0" y="0" width="8" height="320" fill="#fbbf24"/>
+<text x="60" y="64" fill="#fbbf24" font-family="Arial, sans-serif" font-size="17" letter-spacing="3">DJORDJE / MACHINE LEARNING</text>
+<text x="60" y="139" fill="#f8fafc" font-family="Arial, sans-serif" font-size="48" font-weight="700">MovieLens Recommender</text>
+<text x="60" y="186" fill="#b5c4d8" font-family="Arial, sans-serif" font-size="22">Personalization measured against a strong popularity baseline.</text>
+<circle cx="64" cy="261" r="5" fill="#fbbf24"/><circle cx="94" cy="261" r="5" fill="#fbbf24"/><circle cx="124" cy="261" r="5" fill="#fbbf24"/><circle cx="154" cy="261" r="5" fill="#fbbf24"/><circle cx="184" cy="261" r="5" fill="#334155"/><circle cx="214" cy="261" r="5" fill="#334155"/><text x="278" y="267" fill="#b5c4d8" font-family="Arial, sans-serif" font-size="16">ADVANCED · REAL DATA · REPRODUCIBLE RESULTS</text>
+<rect x="1030" y="72" width="112" height="112" rx="24" fill="#152238" stroke="#fbbf24" stroke-width="2"/>
+<text x="1086" y="147" text-anchor="middle" fill="#fbbf24" font-family="Arial, sans-serif" font-size="64" font-weight="700">04</text>
+</svg>

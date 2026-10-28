@@ -1,0 +1,90 @@
+{
+  "raw_rows": 100000,
+  "split": {
+    "train": 80003,
+    "validation": 9997,
+    "test": 10000,
+    "method": "global timestamp 80/10/10; timestamp ties kept together"
+  },
+  "selected": "popularity",
+  "optimization": {
+    "iterations": 100,
+    "converged": false,
+    "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+  },
+  "validation": {
+    "popularity": {
+      "recall_at_10": 0.09605510231331456,
+      "ndcg_at_10": 0.11174920120183468,
+      "evaluated_users": 69,
+      "catalog_coverage_at_10": 0.04517326732673267
+    },
+    "factorization": {
+      "recall_at_10": 0.07711393914977437,
+      "ndcg_at_10": 0.08484777985686624,
+      "evaluated_users": 69,
+      "catalog_coverage_at_10": 0.11571782178217822
+    }
+  },
+  "test_ranking": {
+    "popularity": {
+      "recall_at_10": 0.054959564925032886,
+      "ndcg_at_10": 0.11601783967265261,
+      "evaluated_users": 52,
+      "catalog_coverage_at_10": 0.04702970297029703
+    },
+    "factorization": {
+      "recall_at_10": 0.08717609481184141,
+      "ndcg_at_10": 0.13741180002714806,
+      "evaluated_users": 52,
+      "catalog_coverage_at_10": 0.10272277227722772
+    }
+  },
+  "all_user_test_ranking": {
+    "popularity": {
+      "recall_at_10": 0.07897670386869397,
+      "ndcg_at_10": 0.22679053573889296,
+      "evaluated_users": 147,
+      "catalog_coverage_at_10": 0.04702970297029703
+    },
+    "factorization": {
+      "recall_at_10": 0.09037302736606842,
+      "ndcg_at_10": 0.23435846729286416,
+      "evaluated_users": 147,
+      "catalog_coverage_at_10": 0.10952970297029703
+    }
+  },
+  "test_ratings": {
+    "global_mean_baseline": {
+      "mae": 1.041370332913111,
+      "rmse": 1.195108405994416,
+      "r2": -0.03212022374628254
+    },
+    "factorization": {
+      "mae": 0.8070273691931442,
+      "rmse": 0.999652528362174,
+      "r2": 0.2778726012207251
+    }
+  },
+  "warm_test_ratings": 1344,
+  "excluded_cold_test_ratings": 8656,
+  "catalog_size": 1616,
+  "provenance": {
+    "seed": 42,
+    "python": "3.11.14",
+    "platform": "Darwin",
+    "packages": {
+      "numpy": "2.4.4",
+      "pandas": "3.1.0",
+      "scikit-learn": "1.9.1",
+      "matplotlib": "3.10.8",
+      "joblib": "1.6.0",
+      "torch": "2.11.0",
+      "fastapi": "0.162.0"
+    },
+    "source": {
+      "url": "https://files.grouplens.org/datasets/movielens/ml-100k.zip",
+      "sha256": "50d2a982c66986937beb9ffb3aa76efe955bf3d5c6b761f4e3a7cd717c6a3229"
+    }
+  }
+}
